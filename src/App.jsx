@@ -162,10 +162,10 @@ function App() {
                 <Time />
                 <div className="flex items-center gap-1 justify-center mt-2">
                   {date?.gregorian?.weekday?.en && (
-                    <p className="text-3xl">{date.gregorian.weekday.en}</p>
+                    <p className="text-lg md:text-3xl">{date.gregorian.weekday.en}</p>
                   )}
                   {weatherData?.main?.temp !== undefined && (
-                    <p className="text-2xl">
+                    <p className="text-lg md:text-2xl">
                       {Math.round(weatherData.main.temp)}°C
                     </p>
                   )}
