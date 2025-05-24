@@ -21,17 +21,17 @@ const Namaztime = ({namazTime}) => {
                 </div>
                 <div className="flex items-center">
                   <span className="flex-1 text-left  text-[#00BFFF]">Fajar</span>
-                  <span className="flex-1 text-[#FF4500] text-xl">{adjustTime(namazTime.Fajr,62)}</span>
+                  <span className="flex-1 text-[#FF4500] text-xl">{adjustTime(namazTime.Fajr)}</span>
                   <span className="flex-1 text-[#00BFFF] ">فجر</span>
                 </div>
                 <div className="flex items-center">
                   <span className="flex-1 text-left text-[#00BFFF]">Dhuhr</span>
-                  <span className="flex-1 text-[#FF3C3C] text-xl">{adjustTime(namazTime.Dhuhr,72)}</span>
+                  <span className="flex-1 text-[#FF3C3C] text-xl">{adjustTime(namazTime.Dhuhr)}</span>
                   <span className="flex-1 text-[#00BFFF]">ظہر</span>
                 </div>
                 <div className="flex items-center">
                   <span className="flex-1 text-left text-[#00BFFF]">Asr</span>
-                  <span className="flex-1 text-[#FF3C3C] text-xl" >{adjustTime(namazTime.Asr, 40)}</span>
+                  <span className="flex-1 text-[#FF3C3C] text-xl" >{adjustTime(namazTime.Asr)}</span>
                   <span className="flex-1 text-[#00BFFF]">عصر</span>
                 </div>
                 <div className="flex items-center">
@@ -41,7 +41,7 @@ const Namaztime = ({namazTime}) => {
                 </div>
                 <div className="flex items-center">
                   <span className="flex-1 text-left text-[#00BFFF]">Isha</span>
-                  <span className="flex-1 text-[#FF3C3C] text-xl">{adjustTime(namazTime.Isha,22)}</span>
+                  <span className="flex-1 text-[#FF3C3C] text-xl">{adjustTime(namazTime.Isha)}</span>
                   <span className="flex-1 text-[#00BFFF]">عشاء</span>
                 </div>
                 <div className="flex items-center">

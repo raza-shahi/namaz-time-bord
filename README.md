@@ -7,7 +7,7 @@ A responsive React application that displays:
 - **Live time display**
 
 ## 📸 Features
-
+🕌☁️
 - ⏱️ Live Clock
 - 🌦️ Weather data via OpenWeatherMap API
 - 📿 Namaz timings from Aladhan API
